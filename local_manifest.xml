@@ -5,10 +5,8 @@
      <!-- Remote -->
      <remote name="wrdn"
      fetch="https://github.com/Wrdn28" />
-
      <remote name="ce"
      fetch="https://gitlab.com/endangsoekamti021" />
-
      <remote name="xj"
      fetch="https://github.com/ArifDroidDev" />
 
