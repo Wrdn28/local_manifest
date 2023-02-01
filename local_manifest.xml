@@ -7,13 +7,11 @@
      fetch="https://github.com/Wrdn28" />
      <remote name="ce"
      fetch="https://gitlab.com/endangsoekamti021" />
-     <remote name="xj"
-     fetch="https://github.com/ArifDroidDev" />
 
             <!-- Trees -->
             <project path="device/asus/X01AD" name="device_asus_X01AD" remote="wrdn" revision="rd13" />
             <project path="vendor/asus/X01AD" name="vendor_asus_X01AD-1" remote="wrdn" revision="rd13" />
-            <project path="kernel/asus/X01AD" name="Extrajoss_kernel" remote="xj" revision="master" />
+            <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="wrdn" revision="rd13" />
  
             <!-- Hals -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ce" revision="master" depth="1" />
