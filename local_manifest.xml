@@ -17,6 +17,4 @@
  
             <!-- Hals -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ce" revision="master" depth="1" />
-            <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" revision="13" remote="wrdn" />
-
 </manifest>
