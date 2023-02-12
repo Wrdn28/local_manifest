@@ -9,8 +9,8 @@
      fetch="https://gitlab.com/Amritorock" />
 
             <!-- Trees -->
-            <project path="device/asus/X01AD" name="device_asus_X01AD" remote="wrdn" revision="rd13" />
-            <project path="vendor/asus/X01AD" name="vendor_asus_X01AD-1" remote="wrdn" revision="rd13" />
+            <project path="device/asus/X01AD" name="rice_device_X01AD" remote="wrdn" revision="rd13" />
+            <project path="vendor/asus/X01AD" name="rice_vendor_X01AD" remote="wrdn" revision="rd13" />
             <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="wrdn" revision="rd13" />
  
             <!-- Clang -->
