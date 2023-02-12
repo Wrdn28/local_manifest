@@ -11,7 +11,7 @@
             <!-- Trees -->
             <project path="device/asus/X01AD" name="rice_device_X01AD" remote="wrdn" revision="main" />
             <project path="vendor/asus/X01AD" name="rice_vendor_X01AD" remote="wrdn" revision="main" />
-            <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="wrdn" revision="rd13" />
+            <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="wrdn" revision="terece" />
  
             <!-- Clang -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" />
