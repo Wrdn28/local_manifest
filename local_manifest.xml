@@ -15,9 +15,5 @@
  
             <!-- Clang -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" />
-            
-            <!-- project-->
-            <remove-project name="ricedroidOSS/android_system_memory_lmkd" />
-	    <project path="system/memory/lmkd" name="LineageOS/android_system_memory_lmkd" groups="pdk" revision="lineage-20.0" />
 
 </manifest>
