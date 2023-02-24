@@ -9,9 +9,9 @@
      fetch="https://gitlab.com/Amritorock" />
 
             <!-- Trees -->
-            <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="wrdn" revision="Rice-13" />
+            <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="wrdn" revision="Derp-13" />
             <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="wrdn" revision="main" />
-            <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="wrdn" revision="terece" />
+            <project path="kernel/asus/X01AD" name="OrionX" remote="wrdn" revision="master" />
  
             <!-- Clang -->
             <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="cl" revision="master" />
