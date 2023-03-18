@@ -21,7 +21,7 @@
             <!-- Sepolicy -->
             <project path="device/qcom/sepolicy-legacy-um" name="Evolution-X/device_qcom_sepolicy-legacy-um" remote="hub" revision="tiramisu" clone-depth="1" />
             
-            <!-- Extra packages -->
+            <!-- Some HALs -->
             <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display.git" remote="hub" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
             <project path="hardware/qcom-caf/msm8998/media" name="ArrowOS/android_hardware_qcom_media.git" remote="hub" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
             <project path="hardware/qcom-caf/msm8998/audio" name="ArrowOS/android_hardware_qcom_audio.git" remote="hub" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
