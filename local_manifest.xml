@@ -3,22 +3,24 @@
 <manifest>
 
      <!-- Remote -->
-     <remote name="wrdn" fetch="https://github.com/Wrdn28" />
-     <remote name="clang" fetch="https://gitlab.com/Amritorock" />    
-     <remote name="hub" fetch="https://github.com" />
-     <remote name="rice" fetch="https://github.com/ricedroidOSS" />
+     <remote name="wrdn" 
+      fetch="https://github.com/Wrdn28" />
+     <remote name="clang" 
+      fetch="https://gitlab.com/Amritorock" />    
+     <remote name="hub" 
+      fetch="https://github.com" />
     
             <!-- Trees -->
             <project path="device/asus/X01AD" name="device_asus_X01AD" remote="wrdn" revision="syberia-test" clone-depth="1" />
             <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="wrdn" revision="main" clone-depth="1" />
             <project path="kernel/asus/X01AD" name="android_kernel_asus_X01AD" remote="wrdn" revision="terece" clone-depth="1" />
             <!-- HALs -->
-            <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display.git" remote="hub" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
-            <project path="hardware/qcom-caf/msm8998/media" name="ArrowOS/android_hardware_qcom_media.git" remote="hub" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
-            <project path="hardware/qcom-caf/msm8998/audio" name="ArrowOS/android_hardware_qcom_audio.git" remote="hub" revision="arrow-13.0-caf-msm8998" clone-depth="1" />
+            <project path="hardware/qcom-caf/msm8996/display" name="ArrowOS/android_hardware_qcom_display.git" remote="hub" revision="arrow-13.0-caf-msm8996" clone-depth="1" />
+            <project path="hardware/qcom-caf/msm8996/media" name="ArrowOS/android_hardware_qcom_media.git" remote="hub" revision="arrow-13.0-caf-msm8996" clone-depth="1" />
+            <project path="hardware/qcom-caf/msm8996/audio" name="ArrowOS/android_hardware_qcom_audio.git" remote="hub" revision="arrow-13.0-caf-msm8996" clone-depth="1" />
             <!-- Sepolicy -->
-            <remove-project name="platform_device_qcom_sepolicy_vndr" />
-            <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr-legacy-um" remote="rice" revision="thirteen" clone-depth="1" />
+            <project path="device/qcom/sepolicy-legacy-um" name="Evolution-X/device_qcom_sepolicy-legacy-um" remote="changes" revision="tiramisu" clone-depth="1" />
             <!-- Clang -->
-            <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" />
+            <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="hub" revision="master" clone-depth="1" />
+
 </manifest>
