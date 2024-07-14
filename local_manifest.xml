@@ -7,15 +7,16 @@
      fetch="https://github.com/Wrdn28" />
      <remote name="ivan"
      fetch="https://github.com/garry-rogov" />
-     <remote name="tejas"
-     fetch="https://github.com/tejas101k" />
      <remote name="mipa"
      fetch="https://github.com/mipa-ginkgo" />
      <remote name="oos"
      fetch="https://github.com/OrionOS-prjkt" />
      <remote name="cl"
      fetch="https://gitlab.com/crdroidandroid" />
-     
+
+     <remove-project name="android_vendor_orion" />
+     <project path="vendor/lineage" name="android_vendor_orion" remote="me" revision="14.0" />
+  
      <!-- Trees -->
      <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="14.0" />
      <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="ivan" revision="14" />
