@@ -16,6 +16,9 @@
      <remote name="los"
      fetch="https://github.com/LineageOS" />
      
+     <remove-project name="hardware_qcom-caf_common" />
+     <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="los" revision="lineage-21.0" />
+  
      <!-- Trees -->
      <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="afl-14" />
      <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo-willow" remote="me" revision="14.0" />
