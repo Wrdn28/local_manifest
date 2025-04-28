@@ -5,25 +5,19 @@
      <!-- Remote -->
      <remote name="me"
      fetch="https://github.com/Wrdn28" />
-     <remote name="ivan"
-     fetch="https://github.com/garry-rogov" />
-     <remote name="mipa"
-     fetch="https://github.com/mipa-ginkgo" />
-     <remote name="oos"
-     fetch="https://github.com/OrionOS-prjkt" />
-     <remote name="cl"
-     fetch="https://gitlab.com/crdroidandroid" />
+     <remote name="mang-edwin"
+     fetch="https://gitlab.com/kutemeikito" />
+     <remote name="mang-edwin"
+     fetch="https://gitlab.com/kutemeikito" />
+     <remote name="yeab"
+     fetch="https://gitlab.com/ZorEl212" />
 
-     <remove-project name="android_vendor_orion" />
-     <project path="vendor/lineage" name="android_vendor_orion" remote="me" revision="14.0" />
-  
      <!-- Trees -->
-     <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo-willow" remote="me" revision="14.0" />
-     <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="ivan" revision="14" />
-     <project path="kernel/xiaomi/ginkgo" name="Cuh-kernel" remote="tejas" revision="fourteen" />
+     <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="me" revision="hzn-15" />
+     <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="me" revision="lineage-22.1" />
+     <project path="kernel/xiaomi/ginkgo" name="ryzen-kernel" remote="me" revision="fourteen/dynamic" />
      <!-- Micam -->
-     <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="mipa" revision="arrow-12.0-a3" />
- <!--
-     <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="android_prebuilts_clang_host_linux-x86_clang-r487747c" remote="cl" revision="14.0" clone-depth="1" />
--->
+     <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="yeab" revision="anx-ginkgo" />
+     <!-- Custom Clang -->
+     <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="rastamod69-clang" remote="mang-edwin" revision="clang-21.0" clone-depth="1" />
 </manifest>
