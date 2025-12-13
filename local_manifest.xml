@@ -9,8 +9,8 @@
      fetch="https://github.com/LineageOS" />
 
      <!-- Trees -->
-     <project path="device/xiaomi/ginkgo" name="afterlife_device_xiaomi_ginkgo " remote="me" revision="afl-16" />
-     <project path="device/xiaomi/sm6125-common" name="afterlife_device_xiaomi_sm6125-common " remote="me" revision="afl-16" />
+     <project path="device/xiaomi/ginkgo" name="afterlife_device_xiaomi_ginkgo" remote="me" revision="afl-16" />
+     <project path="device/xiaomi/sm6125-common" name="afterlife_device_xiaomi_sm6125-common" remote="me" revision="afl-16" />
      <project path="vendor/xiaomi/ginkgo" name="afterlife_vendor_xiaomi_ginkgo" remote="me" revision="afl-16" />
      <project path="vendor/xiaomi/sm6125-common" name="afterlife_vendor_xiaomi_sm6125-common" remote="me" revision="afl-16" />
      <project path="kernel/xiaomi/sm6125" name="android_kernel_xiaomi_sm6125" remote="los" revision="lineage-23.0" />
