@@ -5,19 +5,15 @@
      <!-- Remote -->
      <remote name="me"
      fetch="https://github.com/Wrdn28" />
-     <remote name="mang-edwin"
-     fetch="https://gitlab.com/kutemeikito" />
-     <remote name="mang-edwin"
-     fetch="https://gitlab.com/kutemeikito" />
-     <remote name="yeab"
-     fetch="https://gitlab.com/ZorEl212" />
+     <remote name="los"
+     fetch="https://github.com/lineageos" />
 
      <!-- Trees -->
-     <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="me" revision="hzn-15" />
-     <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="me" revision="lineage-22.1" />
-     <project path="kernel/xiaomi/ginkgo" name="ryzen-kernel" remote="me" revision="fourteen/dynamic" />
-     <!-- Micam -->
-     <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="yeab" revision="anx-ginkgo" />
-     <!-- Custom Clang -->
-     <project path="prebuilts/clang/host/linux-x86/clang-rastamod" name="rastamod69-clang" remote="mang-edwin" revision="clang-21.0" clone-depth="1" />
+     <project path="device/xiaomi/ginkgo" name="afterlife_device_xiaomi_ginkgo " remote="me" revision="afl-16" />
+     <project path="device/xiaomi/sm6125-common" name="afterlife_device_xiaomi_sm6125-common " remote="me" revision="afl-16" />
+     <project path="vendor/xiaomi/ginkgo" name="afterlife_vendor_xiaomi_ginkgo" remote="me" revision="afl-16" />
+     <project path="vendor/xiaomi/sm6125-common" name="afterlife_vendor_xiaomi_sm-6125-common" remote="me" revision="afl-16" />
+     <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_sm6125" remote="los" revision="lineage-23.0" />
+     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-23.0" />
+
 </manifest>
