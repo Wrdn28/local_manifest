@@ -6,7 +6,7 @@
      <remote name="me"
      fetch="https://github.com/Wrdn28" />
      <remote name="los"
-     fetch="https://github.com/lineageos" />
+     fetch="https://github.com/LineageOS" />
 
      <!-- Trees -->
      <project path="device/xiaomi/ginkgo" name="afterlife_device_xiaomi_ginkgo " remote="me" revision="afl-16" />
